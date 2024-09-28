@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f49c09d5-f7e3-4ef0-935d-74cb30cc271c" name="ecnu_rag_critic">
+        <fileTransfer rootFolder="/home/dongsheng" accessType="SFTP" host="172.23.148.79" port="22" sshConfigId="cd0c8ca6-fc7a-47d7-b0ec-c61bd8591090" sshConfig="dongsheng@172.23.148.79:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4c05c5b8-f3d2-49b7-8081-3032be16919a" name="43.131.249.49">
+        <fileTransfer rootFolder="/home/machao/dongsheng/kbqa" accessType="SFTP" host="43.131.249.39" port="22" sshConfigId="9a26b8da-08bf-40fb-bb22-a7f93909bcfa" sshConfig="machao@43.131.249.39:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
